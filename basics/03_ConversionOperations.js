@@ -26,5 +26,7 @@ let stringSomeNumber = 33
 let stringNumber = String(stringSomeNumber);
 console.log(typeof(stringNumber));
 
+let name = "karan"
+
 
 
