@@ -26,7 +26,20 @@ let stringSomeNumber = 33
 let stringNumber = String(stringSomeNumber);
 console.log(typeof(stringNumber));
 
-let name = "karan"
+let str1 = "karan"
+let str2 = " pandey" // if we give the space before pandey then the output will also be space out after karan  
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1"+2);
+console.log(1+"2");
+console.log("1"+2+2); // is the string is  first then all the remaining elements are treated as string 
+console.log(1+2+"2");// is the string is on the last then first 2 elements are added and after that string is printed.
+
+let gamecounter = 100
+++gamecounter
+console.log(gamecounter);
+
 
 
 
