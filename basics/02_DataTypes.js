@@ -34,4 +34,5 @@ console.log(typeof object) // the output is undefined
 console.log(typeof age); // o/p is number
 console.log(typeof undefined); // the output is undefined
 
+let name = "karan"
 
