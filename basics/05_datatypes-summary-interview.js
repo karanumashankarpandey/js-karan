@@ -47,3 +47,29 @@ const myfunction=function (){
 // the link below is used for to check the dataypes and their outputs.
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// =======================================================================================================================================================================
+
+//  there are 2 types of memory 1. stack(primitive) , 2. heap(non-primitive)
+
+let myaccount = "k.run25"
+
+let myinsta = myaccount
+myinsta = "karan"
+
+console.log(myinsta);
+console.log(myaccount);
+
+
+let user1 = {
+    email: "karan@google.com",
+    upi: "karan@icici"
+}
+
+let user2 = user1
+
+user2.email = "hitesh@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
