@@ -61,6 +61,33 @@ console.log(Object.entries(tinderuser));// entries returns both column name and 
   //[ 'isloggedin', false ]
 
 
+  //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  // de-structuring the object
+  //Object destructuring ka matlab hai object ki properties ko nikal kar directly variables mein store karna
+
+  const course ={
+    coursename: "chai aur code js",
+    coursePrice:"2999",
+    courseInstructor:"hitesh choudhary"
+  }
+  console.log(course.courseInstructor);
+
+// yaha niche hmesha course.courseinstructor likhene ki jarurat nahi hai 
+
+const {courseInstructor} = course
+console.log(courseInstructor);
+
+// yaha coursePrice:price     
+// coursePrice is yhe acutual property in course object
+// price ek new variable hai jismein humne courseprice property ko store kiya hai.
+const {coursePrice:price} = course
+console.log(price);
+
+ 
+  
+
+
 
 
    
