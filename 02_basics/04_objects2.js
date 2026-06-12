@@ -49,7 +49,7 @@ const obj1 ={
  console.log(obj4);
 
 console.log(tinderuser);
-console.log(Object.keys(tinderuser))   // keys method returns the name of the column data
+console.log(Object.keys(tinderuser))   // keys method returns the name of the column
 //[ 'id', 'name', 'isloggedin' ]
 
 console.log(Object.values(tinderuser)); // values returns the data inside the column
