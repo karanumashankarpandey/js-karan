@@ -101,6 +101,16 @@ console.log(ARRAYINSDEFUN(MyNewArray));
 
 
 
+function myfun(num1,num2)
+{
+    let num3= num1+num2
+    console.log(`the addition of two numbers is${num3}`);
+    
+    
+}
+console.log(myfun(3,7));
+
+
 
 
  
