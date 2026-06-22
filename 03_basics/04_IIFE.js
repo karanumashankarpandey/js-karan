@@ -5,7 +5,7 @@
 
 // iife is declared as ()  ()  the first () is used to write the function inside the ()
 // the second () is used to execute the function
-// if you want to create multiple iife then make sure to put ();  after the function , then only the another function will start
+// if you want to create multiple iife then make sure to put ();  after the function , then only the another function will run
 
 
 (function chai()
