@@ -3,25 +3,25 @@
 // for of loop is used i array,string,
 // object can also be used but it has different way to use it 
 
-// let arr = [1,2,3,4,5]
+let arr = [1,2,3,4,5]
 
-// for (const value of arr) {
-//         console.log(` the value of the arrays are ${value}  `);
+for (const value of arr) {
+        console.log(` the value of the arrays are ${value}  `);
         
-// }
+}
 
 
-// let greetings = "hello world!"
-// for (const greet of greetings) {
-//     if (greet==" ") {
-//         console.log(" the space is printed ");
+let greetings = "hello world!"
+for (const greet of greetings) {
+    if (greet==" ") {
+        console.log(" the space is printed ");
         
-//         continue
-//     }
-//     console.log(` the greetings are ${greet}  `);
+        continue
+    }
+    console.log(` the greetings are ${greet}  `);
     
     
-// }
+}
 
 // map is a method same as array , which does not hold duplicate values in it 
 
