@@ -22,9 +22,10 @@
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio natus ea rem fugit doloremque sint quae? Ipsa, labore inventore sequi, quia atque quasi repellendus laudantium vero doloremque, aspernatur soluta voluptate.</p>
 
         <ul>
-            <li>one </li>
-            <li>two</li>
-            <li>three</li>
+            <li class="list-item">one </li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+            <li class="list-item">four</li>
         </ul>
 
     </div>
@@ -47,6 +48,18 @@
 | `textContent` | ❌ No      | ✅ Yes       | All text      |
 
 // queryselector is used to return the id,class,style and also we can change the color etc.
+
+
+
+    | HTMLCollection                                                               | NodeList                                                                                     |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Contains only HTML elements                                                  | Can contain any type of node (elements, text, comments, etc.)                                |
+| Returned by `getElementsByClassName()`, `getElementsByTagName()`, `children` | Returned by `querySelectorAll()`, `childNodes`                                               |
+| Usually **Live**                                                             | `querySelectorAll()` returns a **Static** NodeList; `childNodes` returns a **Live** NodeList |
+| Doesn't have `forEach()`                                                     | Supports `forEach()`                                                                         |
+| Can be converted using `Array.from()`                                        | Can also be converted using `Array.from()` if needed                                         |
+
+
 
 
 
