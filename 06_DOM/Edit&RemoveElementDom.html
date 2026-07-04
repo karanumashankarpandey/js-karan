@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>edit and remove the element in dom</title>
+</head>
+<body style="background-color: black;  color: antiquewhite;">
+            <ul class="language">
+                <li>javascript</li>
+            </ul>
+</body>
+
+<script>
+  function addlanguage(lang){
+          let li=  document.createElement('li')
+          li.innerHTML=lang
+          document.querySelector('.language').appendChild(li)
+  }
+  addlanguage("python")  // these three elements are added
+  addlanguage("html")
+  addlanguage("mojo")
+
+// edit
+// it is the optimised approach.
+    let secondLang = document.querySelector('li:nth-child(2)')
+     const  newli =    document.createElement('li')
+     newli.textContent = "css"
+     secondLang.replaceWith(newli)       // here the the python is replace with css
+ 
+
+//  edit
+      let editli =  document.querySelector('li:first-child')
+      editli.outerHTML = '<li> typescript  </li>'     // here the first child(javascript) is replace with typescript
+
+
+// removing the element
+
+  let lastchild =   document.querySelector('li:last-child')
+  lastchild.remove()     // here the mojo is removed
+
+
+
+</script>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>karan aur code</title>
+</head>
+<body   style="background-color: black;">
+    
+</body >
+    <script>
+       let div =  document.createElement('div')
+       console.log(div);
+       div.className = 'd1v'
+       div.id=Math.round(Math.random()*10)
+       div.setAttribute("title","generated title") // if you want to set the attribute then it is used.
+
+       div.style.backgroundColor = "blue"
+       div.style.padding="10px"
+
+      const printInBody= document.createTextNode(" chai aur code ")
+        div.appendChild(printInBody)        // append means to insert it
+
+            document.body.appendChild(div) 
+           
+       
+
+    </script>
+
+
+</html>
