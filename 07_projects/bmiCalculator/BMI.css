@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(to bottom,purple,pink);
+}
+
+.container{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
