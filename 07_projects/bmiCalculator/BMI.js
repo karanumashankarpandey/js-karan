@@ -11,11 +11,11 @@ form.addEventListener('submit', function (event){
 
      const result = document.querySelector('#result')
 
-     if(height===' ' || height<0 || isNaN(height)){
+     if(height===null || height<0 || isNaN(height)){
         result.innerHTML= ` please give a valid height `
      }
 
-    else if(weight===' ' || weight<0 || isNaN(weight) ){
+    else if(weight===null || weight<0 || isNaN(weight) ){
         result.innerHTML= ` please give a valid weight `
      }
 
