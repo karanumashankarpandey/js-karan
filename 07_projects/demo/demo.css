@@ -1,0 +1,40 @@
+
+.body{
+    
+}
+.container{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    display: block;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+
+}
+#blue-pink{
+    background:linear-Gradient(to right,Blue,pink);
+   border: 2px solid black;
+    
+}
+#purple-pink{
+    background: linear-gradient(to right,purple,pink);
+    border: 2px solid black;
+
+}
+#insta{
+    background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    border: 2px solid black;
+
+}
+#midnight-sky{
+    background: linear-gradient(135deg, #232526, #414345);
+    border: 2px solid black;
+
+}
