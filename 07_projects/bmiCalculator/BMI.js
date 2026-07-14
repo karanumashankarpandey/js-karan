@@ -8,6 +8,8 @@ form.addEventListener('submit', function (event){
                                                                             // parseint used to convert string into integer value
     
      const weight = parseInt (document.querySelector('#Weight').value)
+     console.log(weight.type);
+     
 
      const result = document.querySelector('#result')
 

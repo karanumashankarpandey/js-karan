@@ -1,0 +1,14 @@
+body{
+    background: linear-gradient(to bottom right, #38A2D7, #561139);
+}
+
+.container{
+    margin: 0;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 5px;
+}
