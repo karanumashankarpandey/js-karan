@@ -66,7 +66,7 @@ function CheckGuess(guess){
 function DisplayGuess(guess) {
     userInput.value=' '     // it is used for clean up of the data elements
     PreviousGuess.innerHTML +=`${guess} `
-   GuessRemain++;
+   GuessRemaining++;
    GuessRemaining.innerHTML = `${11-GuessRemain} `;   
 }
 function DisplayMessage(message){
